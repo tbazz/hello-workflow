@@ -1,4 +1,4 @@
-FROM golang:1.7
+FROM golang:1.17.5 
  
 RUN mkdir -p /app
  
