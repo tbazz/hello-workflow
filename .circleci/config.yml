@@ -7,7 +7,7 @@ executors:
  IMAGE_NAME: tundebello/wafiapp1:latest
  docker: # Each job requires specifying an executor
  # (either docker, macos, or machine), see
- — image: circleci/golang:1.15.8
+ — image: tundebello/wafiapp1:latest
  auth:
  username: $DOCKERHUB_USERNAME
  password: $DOCKERHUB_PASSWORD
