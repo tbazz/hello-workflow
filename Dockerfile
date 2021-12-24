@@ -4,5 +4,5 @@ RUN go install helloworkflow
 
 FROM alpine:latest
 COPY --from=0 /go/bin/helloworkflow .
-ENV PORT 8080
+ENV PORT 8088
 CMD ["./helloworkflow"]
