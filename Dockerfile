@@ -1,4 +1,4 @@
-FROM golang:1.17-alpine
+FROM golang:1.14.9-alpine
 RUN mkdir /build
 ADD go.mod go.sum workflow.go /build/
 WORKDIR /build
